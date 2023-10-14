@@ -1,0 +1,9 @@
+[package]
+name = "nefos"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+nefos-lib = { path = "../lib" }
+tokio = { workspace = true }
