@@ -7,3 +7,4 @@ authors.workspace = true
 [dependencies]
 nefos-lib = { path = "../lib" }
 tokio = { workspace = true }
+dirs = "5.0.1"

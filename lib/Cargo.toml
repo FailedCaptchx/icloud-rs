@@ -5,19 +5,19 @@ edition.workspace = true
 authors.workspace = true
 
 [dependencies.reqwest]
-version = "0.11.22"
+version = "0.11.23"
 features = [
     "json",
     "cookies"
 ]
 
 [dependencies.uuid]
-version = "1.4.1"
+version = "1.6.1"
 features = ["v4"]
 
 [dependencies]
 tokio = { workspace = true }
-serde_json = "1.0.107"
-serde = { version = "1.0.188", features = ["derive"] }
-dirs = "5.0.1"
+serde_json = "1.0.111"
+serde = { version = "1.0.194", features = ["derive"] }
+cookie_store = "0.20.0"
 reqwest_cookie_store = "0.6.0"
